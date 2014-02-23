@@ -8,4 +8,4 @@ A small web service converting `JSON` to `shell` variables.
 
 Get a resource from http and convert it.
 
-Example: `curl http://json2bash.ars.is/get?url=http://api.maschinenraum.tk/api/v0_12/status.json`
+Example: `curl http://json2shell.ars.is/get?url=http://api.maschinenraum.tk/api/v0_12/status.json`
