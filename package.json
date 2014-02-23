@@ -1,10 +1,12 @@
 {
-  "description": "http API to convert JSON to bash vars",
+  "description": "http API to convert JSON to shell vars",
   "version": "0.0.0",
   "private": true,
   "dependencies": {
     "union": "0.3.5",
-    "flatiron": "0.3.11"
+    "flatiron": "0.3.11",
+    "bash-vars": "^1.0.0",
+    "request": "^2.34.0"
   },
   "devDependencies": {
     "api-easy": "0.3.2",
@@ -14,7 +16,7 @@
     "test": "vows --spec",
     "start": "node app.js"
   },
-  "name": "json-to-bash-as-a-service",
+  "name": "json-to-shell-as-a-service",
   "author": "Max F. Albrecht",
-  "homepage": "code.178.is/json-to-bash-as-a-service"
+  "homepage": "code.178.is/json-to-shell-as-a-service"
 }
