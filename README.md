@@ -13,4 +13,4 @@ Example: `curl http://json2shell.ars.is/get?url=http://api.maschinenraum.tk/api/
 
 ## Kudos
 
-This is more or less a wrapper around the [bash-vars](https://www.npmjs.org/package/bash-vars) modules by @dominictarr.
+This is more or less a wrapper around the [bash-vars](https://www.npmjs.org/package/bash-vars) module by @dominictarr.
