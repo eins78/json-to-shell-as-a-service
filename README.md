@@ -2,6 +2,7 @@
 
 A small web service converting `JSON` to `shell` variables.
 
+
 ## API
 
 ### `get`
@@ -9,3 +10,7 @@ A small web service converting `JSON` to `shell` variables.
 Get a resource from http and convert it.
 
 Example: `curl http://json2shell.ars.is/get?url=http://api.maschinenraum.tk/api/v0_12/status.json`
+
+## Kudos
+
+This is more or less a wrapper around the [bash-vars](https://www.npmjs.org/package/bash-vars) modules by @dominictarr.
